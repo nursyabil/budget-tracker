@@ -30,6 +30,7 @@ public class ItemController {
         model.addAttribute("name", "Fiefi");
         return "hello";
     }
+    //testing
 
     @PostMapping("/create-item")
     public ResponseEntity<String> createItem(@RequestBody Item newItem){
